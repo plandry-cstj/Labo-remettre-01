@@ -1,4 +1,4 @@
-// But : Écrire un programme qui prend un nombre de cinq chiffres. Il vérifie que le nombre a bien 5 chiffres et les affiche verticalement
+// But : Ã‰crire un programme qui prend un nombre de cinq chiffres. Il vÃ©rifie que le nombre a bien 5 chiffres et les affiche verticalement
 // Auteur : Pierre-Olivier Landry
 // Date : 2020-09-11
 
@@ -12,15 +12,15 @@ void main()
 
 	int nombre;
 
-	//Le programme demande à l'utilisateur d'entrer un nombre à 5 chiffres
-	std::cout << "Veuillez entrer un nombre à 5 chiffres : ";
-	// Le nombre que l'utilisateur a écrit est lu par le programme
+	//Le programme demande Ã  l'utilisateur d'entrer un nombre Ã  5 chiffres
+	std::cout << "Veuillez entrer un nombre Ã  5 chiffres : ";
+	// Le nombre que l'utilisateur a Ã©crit est lu par le programme
 	std::cin >> nombre;
 	
 	// Le programme prends le premier chiffre et le stock
 	chiffre1 = nombre / 10000;
 
-
+	// Je n'arrive pas Ã  continuer :(
 
 	if (nombre > 9999 && nombre < 100000)
 	{
@@ -37,7 +37,7 @@ void main()
 
 // Plan de test
 /*
-Nombre						Résultat escompté
+Nombre						RÃ©sultat escomptÃ©
 
 12345						1
 							2
