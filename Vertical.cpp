@@ -17,11 +17,13 @@ void main()
 	// Le nombre que l'utilisateur a écrit est lu par le programme
 	std::cin >> nombre;
 	
-	// Le programme prends le premier chiffre et le stock
+	// FR : Le programme prends le premier chiffre et le stock
+	// KM : Chiffre1 n'est pas déclaré comme variable
 	chiffre1 = nombre / 10000;
 
 	// Je n'arrive pas à continuer :(
 
+	// KM : Attention à n'utiliser que ce qui a été vu en classe à ce moment-là
 	if (nombre > 9999 && nombre < 100000)
 	{
 		// Le programme affiche le premier chiffre
@@ -36,6 +38,7 @@ void main()
 
 
 // Plan de test
+// KM : Plan de tests complet !!!
 /*
 Nombre						Résultat escompté
 
