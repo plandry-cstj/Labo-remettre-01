@@ -1,4 +1,4 @@
-// But : Écrire un programme qui lit un entier et qui détermine et affiche s’il s’agit d’un entier pair ou d’un entier impair.
+// But : Ã‰crire un programme qui lit un entier et qui dÃ©termine et affiche sâ€™il sâ€™agit dâ€™un entier pair ou dâ€™un entier impair.
 // Auteur : Pierre-Olivier Landry
 // Date : 2020-09-11
 
@@ -11,12 +11,13 @@ void main()
 
 	int nombre;
 
-	// Le programme affiche un message qui demande à l'utilisateur d'écrire un nombre
+	// Le programme affiche un message qui demande Ã  l'utilisateur d'Ã©crire un nombre
 	std::cout << "Veuillez entrer un nombre : ";
-	//Le programme lit le nombre écrit par l'utilisateur
+	//Le programme lit le nombre Ã©crit par l'utilisateur
 	std::cin >> nombre;
 
 	// Le programme calcule le nombre et indique s'il est pair ou impair
+	// KM : Et pourquoi tu as fait ce type de calcul, utiliser % et 2 et le comparer avec 0
 	if (nombre % 2 == 0)
 	{
 		std::cout << nombre << " est un nombre pair";
@@ -29,8 +30,9 @@ void main()
 }
 
 // Plan de test
+// KM : Mettre des valeurs nÃ©gatives et 0
 /*
-nombre						Résultat escompté
+nombre						RÃ©sultat escomptÃ©
 
 204							204 est un nombre pair
 15							15 est un nombre impair
